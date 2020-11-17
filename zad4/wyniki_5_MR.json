@@ -1,0 +1,14 @@
+MongoDB shell version v4.4.1
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4665938d-63f9-4e9b-b15d-672a21320069") }
+MongoDB server version: 4.4.1
+{ "result" : "zapytanie_5_mr", "ok" : 1 }
+[
+	{
+		"_id" : null,
+		"value" : {
+			"bal_sum" : 2474965.96,
+			"bal_avg" : 4920.409463220676
+		}
+	}
+]
