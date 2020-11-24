@@ -1,0 +1,127 @@
+﻿[
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Cameron Crowe",
+"born": 1957
+      }
+    },
+    "pro": {
+"identity": 58,
+"start": 45,
+"end": 37,
+"type": "PRODUCED",
+"properties": {
+
+      }
+    },
+    "dir": {
+"identity": 57,
+"start": 45,
+"end": 37,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "movies": {
+"identity": 37,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The rest of his life begins now.",
+"title": "Jerry Maguire",
+"released": 2000
+      }
+    },
+    "movies.title": "Jerry Maguire"
+  },
+  {
+    "p": {
+"identity": 27,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rob Reiner",
+"born": 1947
+      }
+    },
+    "pro": {
+"identity": 107,
+"start": 27,
+"end": 81,
+"type": "PRODUCED",
+"properties": {
+
+      }
+    },
+    "dir": {
+"identity": 106,
+"start": 27,
+"end": 81,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "movies": {
+"identity": 81,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Can two friends sleep together and still love each other in the morning?",
+"title": "When Harry Met Sally",
+"released": 1998
+      }
+    },
+    "movies.title": "When Harry Met Sally"
+  },
+  {
+    "p": {
+"identity": 156,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Nancy Meyers",
+"born": 1949
+      }
+    },
+    "pro": {
+"identity": 223,
+"start": 156,
+"end": 154,
+"type": "PRODUCED",
+"properties": {
+
+      }
+    },
+    "dir": {
+"identity": 222,
+"start": 156,
+"end": 154,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "movies": {
+"identity": 154,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Something's Gotta Give",
+"released": 2003
+      }
+    },
+    "movies.title": "Something's Gotta Give"
+  }
+]

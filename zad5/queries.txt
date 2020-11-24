@@ -1,0 +1,61 @@
+1.
+
+MATCH (movie:Movie) return movie
+
+2.
+
+MATCH (hugo:Person {name: "Hugo Weaving"})-[a:ACTED_IN]->(hugoMovies) RETURN hugo,a,hugoMovies
+
+3.
+
+MATCH (hugo:Person {name: "Hugo Weaving"})-[a:ACTED_IN]->(hugoMovies)<-[d:DIRECTED]-(hugoDirectors) RETURN hugo,a,d,hugoDirectors,hugoMovies
+
+4.
+
+MATCH (hugo:Person {name: "Hugo Weaving"})-[actedin:ACTED_IN]->(hugoMovies)<-[costared:ACTED_IN]-(actors:Person) RETURN hugo,actedin,hugoMovies,costared,actors
+
+5.
+
+MATCH (matrix:Movie {title: "The Matrix"})<-[a:ACTED_IN]-(matrix_actors:Person)-[other_a:ACTED_IN]->(other_movies:Movie) RETURN matrix,a,matrix_actors, other_a, other_movies
+
+6.
+
+MATCH (actor:Person)-[a:ACTED_IN]->(movies:Movie) WITH actor, count(movies) as movies_count WHERE movies_count > 0 RETURN actor, movies_count
+
+7.
+
+MATCH (p:Person)-[dir:DIRECTED]->(movies:Movie), (p)-[pro:PRODUCED]->(movies) RETURN p,pro,dir,movies, movies.title
+
+8.
+
+MATCH (keanu:Person{name: 'Keanu Reeves'})-[ak:ACTED_IN]->(movies:Movie)<-[ah:ACTED_IN]-(hugo:Person{name: 'Hugo Weaving'}) RETURN keanu, hugo, movies,ah, ak
+
+9
+
+a)
+
+MERGE (cpt:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'I hate marvel'})
+MERGE (Ev:Person{name:"Chris Evans", born: 1981})
+MERGE (Ha:Person {name:'Hayley Atwell', born:1982})
+MERGE (Se:Person {name:'Sebastian Stan', born:1982})
+MERGE (Hu:Person {name:'Hugo Weaving', born:1960})
+CREATE
+(Ev)-[:ACTED_IN {roles:['Capitan']}]->(cpt),
+(Ha)-[:ACTED_IN {roles:['Peggy']}]->(cpt),
+(Se)-[:ACTED_IN {roles:['Bucky']}]->(cpt),
+(Hu)-[:ACTED_IN {roles:['Skull']}]->(cpt)
+
+b)
+
+MERGE (cpt:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'I hate marvel'})
+MERGE (Jo:Person{name:"Joe Johnston", born: 1950})
+MERGE (Ch:Person {name:'Chris Markus', born:1960})
+MERGE (St:Person {name:'Stephen McFeely', born:1975})
+CREATE
+(Jo)-[:DIRECTED]->(cpt),
+(Ch)-[:PRODUCED]->(cpt),
+(St)-[:PRODUCED]->(cpt)
+
+c)
+
+MATCH (c:Movie {title: 'Captain America: The First Avenger'})<-[*]-(p:Person) RETURN c, p

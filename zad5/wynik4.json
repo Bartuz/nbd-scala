@@ -1,0 +1,960 @@
+﻿[
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "aa": {
+"identity": 137,
+"start": 71,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Zachry",
+          "Dr. Henry Goose",
+          "Isaac Sachs",
+          "Dermot Hoggins"
+        ]
+      }
+    },
+    "actors": {
+"identity": 71,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Hanks",
+"born": 1956
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "aa": {
+"identity": 140,
+"start": 107,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Vyvyan Ayrs",
+          "Captain Molyneux",
+          "Timothy Cavendish"
+        ]
+      }
+    },
+    "actors": {
+"identity": 107,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jim Broadbent",
+"born": 1949
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "aa": {
+"identity": 139,
+"start": 106,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Luisa Rey",
+          "Jocasta Ayrs",
+          "Ovid",
+          "Meronym"
+        ]
+      }
+    },
+    "actors": {
+"identity": 106,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Halle Berry",
+"born": 1966
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 151,
+"start": 4,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "V"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "aa": {
+"identity": 154,
+"start": 119,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "High Chancellor Adam Sutler"
+        ]
+      }
+    },
+    "actors": {
+"identity": 119,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "John Hurt",
+"born": 1940
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 151,
+"start": 4,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "V"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "aa": {
+"identity": 153,
+"start": 118,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Eric Finch"
+        ]
+      }
+    },
+    "actors": {
+"identity": 118,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen Rea",
+"born": 1946
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 151,
+"start": 4,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "V"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "aa": {
+"identity": 152,
+"start": 117,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Evey Hammond"
+        ]
+      }
+    },
+    "actors": {
+"identity": 117,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Natalie Portman",
+"born": 1981
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 151,
+"start": 4,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "V"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "aa": {
+"identity": 155,
+"start": 120,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Dascomb"
+        ]
+      }
+    },
+    "actors": {
+"identity": 120,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ben Miles",
+"born": 1967
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 17,
+"start": 3,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Morpheus"
+        ]
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 16,
+"start": 2,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Trinity"
+        ]
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 15,
+"start": 1,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 10,
+"start": 3,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Morpheus"
+        ]
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 9,
+"start": 2,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Trinity"
+        ]
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "aa": {
+"identity": 8,
+"start": 1,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "aa": {
+"identity": 7,
+"start": 8,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Emil"
+        ]
+      }
+    },
+    "actors": {
+"identity": 8,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Emil Eifrem",
+"born": 1978
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "aa": {
+"identity": 2,
+"start": 3,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Morpheus"
+        ]
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "aa": {
+"identity": 1,
+"start": 2,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Trinity"
+        ]
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "ah": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "aa": {
+"identity": 0,
+"start": 1,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    }
+  }
+]

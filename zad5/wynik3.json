@@ -1,0 +1,547 @@
+﻿[
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "d": {
+"identity": 141,
+"start": 108,
+"end": 105,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 108,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Tykwer",
+"born": 1965
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "d": {
+"identity": 143,
+"start": 6,
+"end": 105,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lana Wachowski",
+"born": 1965
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 138,
+"start": 4,
+"end": 105,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bill Smoke",
+          "Haskell Moore",
+          "Tadeusz Kesselring",
+          "Nurse Noakes",
+          "Boardman Mephi",
+          "Old Georgie"
+        ]
+      }
+    },
+    "d": {
+"identity": 142,
+"start": 5,
+"end": 105,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lilly Wachowski",
+"born": 1967
+      }
+    },
+    "hugoMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 151,
+"start": 4,
+"end": 116,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "V"
+        ]
+      }
+    },
+    "d": {
+"identity": 156,
+"start": 25,
+"end": 116,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 25,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "James Marshall",
+"born": 1967
+      }
+    },
+    "hugoMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 20,
+"start": 6,
+"end": 10,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lana Wachowski",
+"born": 1965
+      }
+    },
+    "hugoMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 19,
+"start": 5,
+"end": 10,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lilly Wachowski",
+"born": 1967
+      }
+    },
+    "hugoMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 13,
+"start": 6,
+"end": 9,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lana Wachowski",
+"born": 1965
+      }
+    },
+    "hugoMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 12,
+"start": 5,
+"end": 9,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lilly Wachowski",
+"born": 1967
+      }
+    },
+    "hugoMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 5,
+"start": 6,
+"end": 0,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lana Wachowski",
+"born": 1965
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "d": {
+"identity": 4,
+"start": 5,
+"end": 0,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "hugoDirectors": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lilly Wachowski",
+"born": 1967
+      }
+    },
+    "hugoMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    }
+  }
+]

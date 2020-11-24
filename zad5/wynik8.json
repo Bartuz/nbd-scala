@@ -1,0 +1,167 @@
+﻿[
+  {
+    "keanu": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    },
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "movies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "ah": {
+"identity": 18,
+"start": 4,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "ak": {
+"identity": 15,
+"start": 1,
+"end": 10,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    }
+  },
+  {
+    "keanu": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    },
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "movies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "ah": {
+"identity": 11,
+"start": 4,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "ak": {
+"identity": 8,
+"start": 1,
+"end": 9,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    }
+  },
+  {
+    "keanu": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    },
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "movies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "ah": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Agent Smith"
+        ]
+      }
+    },
+    "ak": {
+"identity": 0,
+"start": 1,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Neo"
+        ]
+      }
+    }
+  }
+]
