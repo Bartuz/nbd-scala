@@ -1,0 +1,91 @@
+1.
+
+MATCH p=shortestPath(
+(dar:town {name:"Darjeeling"})-[*]->(sad:peak {name:"Sandakphu"})
+)
+RETURN p
+
+2.
+
+MATCH p=shortestPath(
+(dar:town {name:"Darjeeling"})-[r*]->(sad:peak {name:"Sandakphu"})
+)
+WHERE all(rel in r where rel.winter = 'true')
+RETURN p
+
+3.
+
+MATCH paths=(dar:town {name:"Darjeeling"})-[r*]->(sad:peak {name:"Sandakphu"})
+With paths, reduce(dis = 0, rel IN relationships(paths)| dis + rel.distance) AS distance
+return paths, distance
+order by distance
+
+3b.
+
+MATCH paths=(dar:town {name:"Darjeeling"})-[r:twowheeler*]->()
+WHERE all(rel in r where rel.summer = 'true')
+return paths
+
+4.
+
+MATCH (a:Airport)<-[d:ORIGIN]-(f:Flight)
+WITH a, count(f) as flights_count
+RETURN a, flights_count
+order by flights_count
+
+5.
+
+MATCH (destination:Airport)
+WHERE destination.name <> 'LAX'
+MATCH path = (origin:Airport { name:"LAX" })<-[r:ORIGIN]-()-[*]->(destination)
+WHERE REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+  price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'economy'}) | ticket.price][0]
+  ) < 3000
+RETURN DISTINCT destination
+
+6.
+
+MATCH path=(origin:Airport { name:"LAX" })<-[o:ORIGIN]-(f:Flight)-[*1..8]-(da:Airport{ name: 'DAY' })
+WITH REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+  price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'economy'}) | ticket.price][0] ) as total_eco,
+  REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+    price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'business'}) | ticket.price][0] ) as total_bis,
+    REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+        price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'firstClass'}) | ticket.price][0] ) as total_first,
+        path
+RETURN path, total_eco, total_bis, total_first
+ORDER BY total_eco
+
+7.
+
+
+MATCH path=(origin:Airport { name:"LAX" })<-[o:ORIGIN]-(f:Flight)-[*1..8]-(da:Airport{ name: 'DAY' })
+WITH REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+  price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'economy'}) | ticket.price][0] ) as total_eco,
+        path
+RETURN path, total_eco
+ORDER BY total_eco ASC
+LIMIT 1
+
+8.
+
+MATCH path=(origin:Airport { name:"LAX" })<-[o:ORIGIN]-(f:Flight)-[*1..8]-(da:Airport{ name: 'DAY' })
+WITH REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+  price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'business'}) | ticket.price][0] ) as bis,
+        path
+RETURN path, bis
+ORDER BY bis ASC
+LIMIT 1
+
+9.
+
+MATCH (f:Flight)-[:DESTINATION|ORIGIN]->(a:Airport)
+RETURN f.airline, count(distinct(a)) order by count(distinct(a)) desc;
+
+10.
+
+MATCH path=(a:Airport)<-[:ORIGIN]-(f1:Flight)-[:DESTINATION]->(b:Airport)<-[:ORIGIN]-(f2:Flight)-[:DESTINATION]->(c:Airport)
+WHERE a.name <> c.name
+WITH REDUCE(price = 0, f IN [node IN NODES(path) WHERE 'Flight' IN LABELS(node)] |
+  price + [(f)<-[:ASSIGN]-(ticket:Ticket {class:'economy'}) | ticket.price][0] ) as total_eco, a, b, c
+RETURN a, b, c, min(total_eco)
