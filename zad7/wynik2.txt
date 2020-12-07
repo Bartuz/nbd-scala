@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp+mVmwBEUpkzGNl6H2XdpMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s12539>; rel="up"
+Last-Modified: Mon, 07 Jan 2020 01:42:37 GMT
+ETag: "6XAkrh2jmgfrOOI1Dfrxgo"
+Date: Mon, 07 Jan 2020 01:45:34 GMT
+Content-Type: application/json
+Content-Length: 65
+
+{"weapon": "deagle", "type": "pistol", "dmg": 199, "price": 9999}

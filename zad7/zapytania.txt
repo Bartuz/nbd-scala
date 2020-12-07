@@ -1,0 +1,47 @@
+1.
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "katana", "type": "melee", "dmg": 99, "price": 1000}' http://0.0.0.0:8098/buckets/s12539/keys/Katana
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "deagle", "type": "pistol", "dmg": 199, "price": 9999}' http://0.0.0.0:8098/buckets/s12539/keys/Deagle
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "ak-47", "type": "rifle", "dmg": 149, "price": 15000}' http://0.0.0.0:8098/buckets/s12539/keys/AK
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "fist", "type": "melee", "dmg": 10, "price": 0}' http://0.0.0.0:8098/buckets/s12539/keys/Fist
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "fireball", "type": "magic", "dmg": 499, "price": 99999}' http://0.0.0.0:8098/buckets/s12539/keys/Fireball
+
+2.
+
+curl -i http://0.0.0.0:8098/buckets/s12539/keys/Deagle
+
+3.
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "deagle", "type": "pistol", "dmg": 199, "price": 9999, country: 'switzerland'}' http://0.0.0.0:8098/buckets/s12539/keys/Deagle
+
+4.
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "fist", "type": "melee", "dmg": 10}' http://0.0.0.0:8098/buckets/s12539/keys/Fist
+
+5.
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"weapon": "fireball", "type": "magic", "dmg": 299, "price": 99999}' http://0.0.0.0:8098/buckets/s12539/keys/Fireball
+
+6.
+
+curl -i -XDELETE http://0.0.0.0:8098/buckets/s12539/keys/AK
+
+7.
+
+curl -i http://0.0.0.0:8098/buckets/s12539/keys/AK
+
+8.
+
+curl -i -XPOST -H "Content-Type:application/json" -d '{"this":"fails"}' http://0.0.0.0:8098/buckets/s12539/keys
+
+9.
+
+curl -i http://0.0.0.0:8098/buckets/s12539/keys/MWLjlzKSWnGF95UMgpGI6GFfk6Y
+
+10.
+
+curl -i -XDELETE http://0.0.0.0:8098/buckets/s12539/keys/MWLjlzKSWnGF95UMgpGI6GFfk6Y
