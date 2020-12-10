@@ -1,0 +1,4 @@
+Student saved. key=s12539, data={u'indeks': u's12539', u'name': u'Filip'}
+Fetched student(#s12539). data={u'indeks': u's12539', u'name': u'Filip'}
+Fetched student (again, #s12539). data={u'indeks': u's12539', u'surname': u'Bartuzi', u'name': u'Filip'}
+Fetching deleted student(#s12539. data=None
